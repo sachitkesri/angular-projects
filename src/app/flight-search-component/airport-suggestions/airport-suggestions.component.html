@@ -1,0 +1,7 @@
+<h1> Airport List</h1>
+<ul *ngFor="let airport of sourceAirports">
+    <li (click)= "setSelectedAirport(airport)">
+        <h3>{{ airport.n }}</h3>
+    </li>
+</ul>
+
